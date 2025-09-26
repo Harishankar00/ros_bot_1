@@ -1,0 +1,2 @@
+Invoking command in '/home/harishankar/ros_bot/build/articubot_one': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/articubot_one
+Invoked command in '/home/harishankar/ros_bot/build/articubot_one' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/articubot_one
