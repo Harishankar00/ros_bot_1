@@ -1,4 +1,4 @@
-[0.005s] Invoking command in '/home/harishankar/ros_bot/build/articubot_one': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/articubot_one
+[0.005s] Invoking command in '/home/harishankar/ros_bot/build/my_bot': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
 [0.117s] -- The C compiler identification is GNU 11.4.0
 [0.193s] -- The CXX compiler identification is GNU 11.4.0
 [0.200s] -- Detecting C compiler ABI info
@@ -12,7 +12,7 @@
 [0.338s] -- Detecting CXX compile features
 [0.338s] -- Detecting CXX compile features - done
 [0.345s] -- Configuring incomplete, errors occurred!
-[0.345s] See also "/home/harishankar/ros_bot/build/articubot_one/CMakeFiles/CMakeOutput.log".
+[0.345s] See also "/home/harishankar/ros_bot/build/my_bot/CMakeFiles/CMakeOutput.log".
 [0.345s] [31mCMake Error at CMakeLists.txt:19 (find_package):
 [0.345s]   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
 [0.345s]   has asked CMake to find a package configuration file provided by
@@ -30,4 +30,4 @@
 [0.346s]   has been installed.
 [0.346s] 
 [0.346s] [0m
-[0.348s] Invoked command in '/home/harishankar/ros_bot/build/articubot_one' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/articubot_one
+[0.348s] Invoked command in '/home/harishankar/ros_bot/build/my_bot' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
