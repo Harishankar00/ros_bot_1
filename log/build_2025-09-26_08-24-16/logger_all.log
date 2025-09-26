@@ -16,22 +16,22 @@
 [0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'colcon_meta'
 [0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extensions ['ros']
 [0.174s] Level 1:colcon.colcon_core.package_identification:_identify(.) by extension 'ros'
-[0.184s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'my_bot'
+[0.184s] DEBUG:colcon.colcon_core.package_identification:Package '.' with type 'ros.ament_cmake' and name 'ros_bot'
 [0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(recursive) using defaults
 [0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) discover
 [0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(ignore) using defaults
 [0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) discover
 [0.184s] Level 1:colcon.colcon_core.package_discovery:discover_packages(path) using defaults
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_args' from command line to 'None'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target' from command line to 'None'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_cache' from command line to 'False'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_clean_first' from command line to 'False'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'cmake_force_configure' from command line to 'False'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'ament_cmake_args' from command line to 'None'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_cmake_args' from command line to 'None'
-[0.196s] Level 5:colcon.colcon_core.verb:set package 'my_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
-[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'my_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harishankar/ros_bot/build/my_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harishankar/ros_bot/install/my_bot', 'merge_install': False, 'path': '/home/harishankar/ros_bot', 'symlink_install': False, 'test_result_base': None}
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_target' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_target_skip_unavailable' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_clean_cache' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_clean_first' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'cmake_force_configure' from command line to 'False'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'ament_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'catkin_cmake_args' from command line to 'None'
+[0.196s] Level 5:colcon.colcon_core.verb:set package 'ros_bot' build argument 'catkin_skip_building_tests' from command line to 'False'
+[0.196s] DEBUG:colcon.colcon_core.verb:Building package 'ros_bot' with the following arguments: {'ament_cmake_args': None, 'build_base': '/home/harishankar/ros_bot/build/ros_bot', 'catkin_cmake_args': None, 'catkin_skip_building_tests': False, 'cmake_args': None, 'cmake_clean_cache': False, 'cmake_clean_first': False, 'cmake_force_configure': False, 'cmake_target': None, 'cmake_target_skip_unavailable': False, 'install_base': '/home/harishankar/ros_bot/install/ros_bot', 'merge_install': False, 'path': '/home/harishankar/ros_bot', 'symlink_install': False, 'test_result_base': None}
 [0.197s] INFO:colcon.colcon_core.executor:Executing jobs using 'parallel' executor
 [0.197s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete
 [0.198s] INFO:colcon.colcon_ros.task.ament_cmake.build:Building ROS package in '/home/harishankar/ros_bot' with build type 'ament_cmake'
@@ -39,21 +39,21 @@
 [0.199s] INFO:colcon.colcon_core.plugin_system:Skipping extension 'colcon_core.shell.bat': Not used on non-Windows systems
 [0.199s] INFO:colcon.colcon_core.shell:Skip shell extension 'powershell' for command environment: Not usable outside of PowerShell
 [0.199s] DEBUG:colcon.colcon_core.shell:Skip shell extension 'dsv' for command environment
-[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harishankar/ros_bot/build/my_bot': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
-[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harishankar/ros_bot/build/my_bot' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
-[0.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(my_bot)
-[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot' for CMake module files
-[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot' for CMake config files
-[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot/bin'
-[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot/lib/pkgconfig/my_bot.pc'
-[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot/lib/python3.10/site-packages'
-[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/my_bot/bin'
-[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/my_bot/share/my_bot/package.ps1'
-[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harishankar/ros_bot/install/my_bot/share/my_bot/package.dsv'
-[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/my_bot/share/my_bot/package.sh'
-[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/my_bot/share/my_bot/package.bash'
-[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/my_bot/share/my_bot/package.zsh'
-[0.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harishankar/ros_bot/install/my_bot/share/colcon-core/packages/my_bot)
+[0.203s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoking command in '/home/harishankar/ros_bot/build/ros_bot': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/ros_bot
+[0.546s] DEBUG:colcon.colcon_core.event_handler.log_command:Invoked command in '/home/harishankar/ros_bot/build/ros_bot' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/ros_bot
+[0.555s] Level 1:colcon.colcon_core.environment:create_environment_scripts_only(ros_bot)
+[0.557s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot' for CMake module files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot' for CMake config files
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot/bin'
+[0.558s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot/lib/pkgconfig/ros_bot.pc'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot/lib/python3.10/site-packages'
+[0.559s] Level 1:colcon.colcon_core.environment:checking '/home/harishankar/ros_bot/install/ros_bot/bin'
+[0.559s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/ros_bot/share/ros_bot/package.ps1'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package descriptor '/home/harishankar/ros_bot/install/ros_bot/share/ros_bot/package.dsv'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/ros_bot/share/ros_bot/package.sh'
+[0.560s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/ros_bot/share/ros_bot/package.bash'
+[0.561s] INFO:colcon.colcon_core.shell:Creating package script '/home/harishankar/ros_bot/install/ros_bot/share/ros_bot/package.zsh'
+[0.561s] Level 1:colcon.colcon_core.environment:create_file_with_runtime_dependencies(/home/harishankar/ros_bot/install/ros_bot/share/colcon-core/packages/ros_bot)
 [0.571s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:closing loop
 [0.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:loop closed
 [0.572s] DEBUG:colcon.colcon_parallel_executor.executor.parallel:run_until_complete finished with '1'

@@ -1,2 +1,2 @@
-Invoking command in '/home/harishankar/ros_bot/build/my_bot': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
-Invoked command in '/home/harishankar/ros_bot/build/my_bot' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/my_bot
+Invoking command in '/home/harishankar/ros_bot/build/ros_bot': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/ros_bot
+Invoked command in '/home/harishankar/ros_bot/build/ros_bot' returned '1': /usr/bin/cmake /home/harishankar/ros_bot -DCMAKE_INSTALL_PREFIX=/home/harishankar/ros_bot/install/ros_bot

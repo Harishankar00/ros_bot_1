@@ -11,7 +11,7 @@
 -- Detecting CXX compile features
 -- Detecting CXX compile features - done
 -- Configuring incomplete, errors occurred!
-See also "/home/harishankar/ros_bot/build/my_bot/CMakeFiles/CMakeOutput.log".
+See also "/home/harishankar/ros_bot/build/ros_bot/CMakeFiles/CMakeOutput.log".
 [31mCMake Error at CMakeLists.txt:19 (find_package):
   By not providing "Findament_cmake.cmake" in CMAKE_MODULE_PATH this project
   has asked CMake to find a package configuration file provided by
